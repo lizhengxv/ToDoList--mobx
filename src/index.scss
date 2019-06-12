@@ -1,0 +1,35 @@
+.main{
+  .header{
+    display: flex;
+    justify-content: center;
+    .input{
+        width: 500px;
+        height: 40px;
+    }
+    .btn-submit{
+        height: 40px;
+        display: block;
+        width: 100px;
+    }
+  }
+
+    .footer{
+
+        text-align: center;
+    }
+  
+
+}
+
+.todo-list{
+    .todo-item{
+        list-style: none;
+        border-bottom: 1px solid #ccc;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .finished{
+        text-decoration: line-through;
+        color: lightcoral;
+    }
+}
